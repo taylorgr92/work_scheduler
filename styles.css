@@ -19,7 +19,7 @@ body {
   
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: rgb(37, 29, 29);
     border-radius: 0;
     border-bottom: 10px solid black;
   }
@@ -35,7 +35,7 @@ body {
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
+    height: 2rem;
     border-top: 1px solid white;;
   }
   
@@ -73,3 +73,4 @@ body {
     transition: all .3s ease-in-out;
   }
   
+
