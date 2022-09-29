@@ -1,7 +1,5 @@
 //date picker
+var dayWeek= moment().format("dddd, MM DD ")
+// $("#currentDay").text(dayWeek);
 
-
-
-var dayWeek= moment.format("dddd, MM DD ")
-$("#currentDay").text(dayWeek);
-
+console.log(dayWeek);
