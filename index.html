@@ -32,50 +32,94 @@
 
     <div class="container">
       <!-- Timeblocks go here -->
-      <table class="table table-bordered">
+      <table class="table">
         <tbody>
-          <tr class="table-row">
+          <tr class="time-block">
             <td class="hour">9AM</td>
-            <td><input type="text" /></td>
+            <td><input type="text" class="description" id="ninth_hour" /></td>
+            <td>
+              <button class="btn saveBtn"><i class="fas fa-save"></i></button>
+            </td>
           </tr>
 
-          <tr class="table-row">
+          <tr class="time-block">
             <td class="hour">10AM</td>
-            <td class="hour"><input type="text" /></td>
+            <td class="hour">
+              <input type="text"  class="description" id="tenth_hour" />
+            </td>
+            <td>
+              <button class="btn saveBtn"><i class="fas fa-save"></i></button>
+            </td>
           </tr>
 
-          <tr class="table-row">
+          <tr class="time-block">
             <td class="hour">11AM</td>
-            <td><input type="text" /></td>
+            <td><input type="text" class="description" id="eleventh_hour" /></td>
+            <td>
+              <button class="btn saveBtn"><i class="fas fa-save"></i></button>
+            </td>
           </tr>
 
-          <tr class="table-row">
+          <tr class="time-block">
             <td class="hour">12PM</td>
-            <td><input type="text" /></td>
+            <td><input type="text" class="description" id="twelfth_hour" /></td>
+            <td>
+              <button class="btn saveBtn"><i class="fas fa-save"></i></button>
+            </td>
           </tr>
 
-          <tr class="table-row">
+          <tr class="time-block">
             <td class="hour">1PM</td>
-            <td><input type="text" /></td>
+            <td><input type="text" class="description" id="first_hour" /></td>
+            <td>
+              <button class="btn saveBtn"><i class="fas fa-save"></i></button>
+            </td>
           </tr>
 
-          <tr class="table-row">
+          <tr class="time-block">
             <td class="hour">2PM</td>
-            <td><input type="text" /></td>
+            <td><input type="text" class="description" id="second_hour" /></td>
+            <td>
+              <button class="btn saveBtn"><i class="fas fa-save"></i></button>
+            </td>
           </tr>
 
-          <tr class="table-row">
+          <tr class="time-block">
             <td class="hour">3PM</td>
-            <td><input type="text" /></td>
+            <td><input type="text" class="description" id="third_hour" /></td>
+            <td>
+              <button class="btn saveBtn"><i class="fas fa-save"></i></button>
+            </td>
           </tr>
 
-          <tr class="table-row">
+          <tr class="time-block">
             <td class="hour">4PM</td>
-            <td><input type="text" /></td>
+            <td>
+              <input
+                type="text"
+                class="description"
+                id="fourth_hour"
+                {
+                responseText.textContent="response.status;"
+                }
+                return
+                response.json();
+                });
+                }
+              />
+            </td>
+            <td>
+              <button class="btn saveBtn"><i class="fas fa-save"></i></button>
+            </td>
           </tr>
-          <tr>
+          <tr class="time-block">
             <td class="hour">5PM</td>
-            <td><input type="text" /></td>
+            <td><input type="text" class="description" id="fifth_hour" /></td>
+            <td>
+              <button class="btn saveBtn" class="description">
+                <i class="fas fa-save"></i>
+              </button>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -91,7 +135,7 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
     ></script>
-    
+
     <script src="script.js"></script>
   </body>
 </html>
