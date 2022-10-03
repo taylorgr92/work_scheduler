@@ -27,7 +27,7 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="today" class="lead"></p>
     </header>
 
     <div class="container">
@@ -36,7 +36,9 @@
         <tbody>
           <tr class="time-block">
             <td class="hour">9AM</td>
-            <td><input type="text" class="description" id="ninth_hour" /></td>
+            <td class="text-field">
+              <input type="text" class="description" id="hour9" />
+            </td>
             <td>
               <button class="btn saveBtn"><i class="fas fa-save"></i></button>
             </td>
@@ -44,8 +46,8 @@
 
           <tr class="time-block">
             <td class="hour">10AM</td>
-            <td class="hour">
-              <input type="text"  class="description" id="tenth_hour" />
+            <td class="text-field">
+              <input type="text" class="description" id="hour10" />
             </td>
             <td>
               <button class="btn saveBtn"><i class="fas fa-save"></i></button>
@@ -54,7 +56,9 @@
 
           <tr class="time-block">
             <td class="hour">11AM</td>
-            <td><input type="text" class="description" id="eleventh_hour" /></td>
+            <td class="text-field">
+              <input type="text" class="description" id="hour11" />
+            </td>
             <td>
               <button class="btn saveBtn"><i class="fas fa-save"></i></button>
             </td>
@@ -62,7 +66,9 @@
 
           <tr class="time-block">
             <td class="hour">12PM</td>
-            <td><input type="text" class="description" id="twelfth_hour" /></td>
+            <td class="text-field">
+              <input type="text" class="description" id="hour12" />
+            </td>
             <td>
               <button class="btn saveBtn"><i class="fas fa-save"></i></button>
             </td>
@@ -70,7 +76,9 @@
 
           <tr class="time-block">
             <td class="hour">1PM</td>
-            <td><input type="text" class="description" id="first_hour" /></td>
+            <td class="text-field">
+              <input type="text" class="description" id="hour1" />
+            </td>
             <td>
               <button class="btn saveBtn"><i class="fas fa-save"></i></button>
             </td>
@@ -78,7 +86,9 @@
 
           <tr class="time-block">
             <td class="hour">2PM</td>
-            <td><input type="text" class="description" id="second_hour" /></td>
+            <td class="text-field">
+              <input type="text" class="description" id="hour2" />
+            </td>
             <td>
               <button class="btn saveBtn"><i class="fas fa-save"></i></button>
             </td>
@@ -86,7 +96,9 @@
 
           <tr class="time-block">
             <td class="hour">3PM</td>
-            <td><input type="text" class="description" id="third_hour" /></td>
+            <td class="text-field">
+              <input type="text" class="description" id="hour3" />
+            </td>
             <td>
               <button class="btn saveBtn"><i class="fas fa-save"></i></button>
             </td>
@@ -94,27 +106,19 @@
 
           <tr class="time-block">
             <td class="hour">4PM</td>
-            <td>
-              <input
-                type="text"
-                class="description"
-                id="fourth_hour"
-                {
-                responseText.textContent="response.status;"
-                }
-                return
-                response.json();
-                });
-                }
-              />
+            <td class="text-field">
+              <input type="text" class="description" id="hour4" />
             </td>
+
             <td>
               <button class="btn saveBtn"><i class="fas fa-save"></i></button>
             </td>
           </tr>
           <tr class="time-block">
             <td class="hour">5PM</td>
-            <td><input type="text" class="description" id="fifth_hour" /></td>
+            <td class="text-field">
+              <input type="text" class="description" id="hour5" />
+            </td>
             <td>
               <button class="btn saveBtn" class="description">
                 <i class="fas fa-save"></i>
