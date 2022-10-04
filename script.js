@@ -8,7 +8,7 @@ $(document).ready(function () {
     //assign save button listening for the user input
     $(".saveBtn").on("click", function () {
       var text = $(this).siblings(".description").val(); // taken the change from the sibling html description attribute
-      var time = $(this).parent().attr("#currentDay"); // taken the change from the parent html id attribute
+      var time = $(this).parent().attr("#today"); // taken the change from the parent html id attribute
 
       //set localStorage
 
