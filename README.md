@@ -8,8 +8,7 @@ This project was developed to help the user manage their workday. Users can ente
 
 # Installation
 
-Follow this link to clone the code: https://github.com/taylorgr92/js-code-quiz
-
+Follow this link to clone the code: https://github.com/taylorgr92/work_scheduler.git
 # Screenshots
 
 [screenshot1.png](https://postimg.cc/njdQ0Vt2)
