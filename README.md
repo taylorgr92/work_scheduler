@@ -1,6 +1,5 @@
-## Project Title
+# Work Scheduler
 
-Simple overview of use/purpose.
 
 # Description
 
